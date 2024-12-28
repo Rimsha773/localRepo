@@ -32,7 +32,7 @@
 }
 
 .border:hover{
-    border:1.5px solid black
+    border: 1.5px solid white;
 }
   /** box1 **/
 .add-1{
@@ -107,23 +107,35 @@
    .panel{
     height: 40px;
     background-color: #222f3d;
-    display: flex;
     color:white;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
    }
 
    .panel-ops{
      width:70%;
-     font-size: 0.85rem;
+     font-size: 0.75rem;
+     display: flex;
+     justify-content: space-evenly;
    }
 
-   .panel-3{
-    width: 0.9rem;
-    font-weight: 700;
-   }
 
    .hero-section{
     height: 400px;
-    background-image: url('amazon img.jpg');
+    background-image: url("amazon img.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content:center ;
+    align-items: flex-end;
+   }
+
+   .hero-img{
+    background-color: bisque;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
    }
