@@ -149,11 +149,18 @@
 
    .shop-section{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: calc(250px,4fr);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background-color: #e2e2e2;
 
+   }
+   .box{
+    border:2px solid black;
+    height:400px;
+    width: 23%;
+    background-color: beige;
+    padding:20px 0px 15px;
+    margin-top: 15px;
    }
 
    .bac-img{
