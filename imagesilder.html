@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slider gallery</title>
+</head>
+<body>
+    <div class="full-img" id="fullimgBox">
+        <img src="dress.jpg" id="fullimg">
+        <span onclick="closefullImg()">X</span>
+    </div>
+    <div class="img-gallery">
+    <img src="dress.jpg" onclick="openfullImg(this.src)">
+    <img src="jewellery.jpeg" onclick="openfullImg(this.src)">
+    <img src="laptop.jpg" onclick="openfullImg(this.src)">
+    <img src="handbags.jpeg" onclick="openfullImg(this.src)">
+    </div>
+</body>
+</html>
